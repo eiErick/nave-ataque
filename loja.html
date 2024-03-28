@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/loja.css">
+    <link rel="shortcut icon" href="assets/store.svg" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" target="_self"><img class="icon-home" src="assets/home.svg" alt="home"></a>
+        <a href="game.html" target="_self"><img class="icon-home" src="assets/controle-game.svg" alt="game"></a>
+        <p>Pontos: <span class="quantidade-pontos-melhorias">0</span></p>
+    </header>
+    <main class="main">
+        <div class="velocidade-nave">
+            <p class="melhroias"><span class="num-melhorias-velocidade-nave">5</span> - 15</p>
+            <img src="assets/velocimetro.svg" alt="velocidade da nave">
+            <p>Velocidade da Nave</p>
+            <span class="container-btns">
+                <button class="btns">+</button>
+                <button class="btns">-</button>
+            </span>
+        </div>
+
+        <div class="velocidade-missil">
+            <p class="melhroias"><span class="num-melhorias-velocidade-missil">10</span> - 25</p>
+            <img src="assets/raio.svg" alt="velocidade do missil">
+            <p>Velocidade do Missil</p>
+            <span class="container-btns">
+                <button class="btns">+</button>
+                <button class="btns">-</button>
+            </span>
+        </div>
+
+        <div class="vida">
+            <p class="melhroias"><span class="num-melhorias-vidas">3</span> - 7</p>
+            <img src="assets/coracao.svg" alt="vida">
+            <p>Quantidade de Vida</p>
+            <span class="container-btns">
+                <button class="btns">+</button>
+                <button class="btns">-</button>
+            </span>
+        </div>
+    </main>
+    <script src="js/loja.js" type="module"></script>
+</body>
+</html>
